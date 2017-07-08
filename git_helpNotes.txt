@@ -1,4 +1,4 @@
-add - 		add all the changes we made to the project,ie add the modified files to the staging area
+﻿add - 		add all the changes we made to the project,ie add the modified files to the staging area
 commit- 	take a snapshot of the sys. state at that point of time. This can be used to later come back to a certain version.We also add messages to  the commit inorder to correctly identify the changes
 log    -    Show commit logs
 checkout   Switch branches or restore working tree files;gets the repository state to the working area for the specified file
@@ -9,7 +9,7 @@ repository- when commit is done
 
 create a new repository on the command line
 
-echo "# testRepo" >> README.md
+echo "# testRepo" >> README.md	//why is this here
 git init
 git add README.md
 git commit -m "first commit"

@@ -1,0 +1,3 @@
+//we generally use this to ignore files we wanna track in our repo
+//.idea to ignore idea folder
+//hot/cold.html to ignore hot/cold.html
