@@ -1,0 +1,10 @@
+when the user enters min>0 for the range;the bar graph does not get plotted 
+the max value can go lesser than the min value for range
+Sometimes the lineups for a certain site fail to load due to Internal server error
+Sometimes the bar graph is filled even when the actual value is 0
+Sometimes the Colour graph Title becomes undefined. Not able to retrace the steps as the error is not occuring again.
+
+
+
+ Always
+ Rare
