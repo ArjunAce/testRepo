@@ -57,10 +57,6 @@ public class EmployeeManagement {
 	        }
         }
         System.out.println();
-         
-        
-        
-        
         System.out.println("Following are the existing version available:");
         System.out.println();
         //memento pattern begins here
@@ -93,7 +89,6 @@ public class EmployeeManagement {
         a3.add("Manager");
         o1.setState(a3);
         c1.add(o1.saveStateToMemento());
-        
        
         //showing different states
         Iterator i=c1.getversions().iterator();
@@ -109,13 +104,7 @@ public class EmployeeManagement {
     		   System.out.println(s1);
     	   }
     	 System.out.println();
-    	   //   Iterator<String> itr3= list.iterator();
-           //while(itr3.hasNext()){
-           //	System.out.println(itr3.next());
-           //}  
-    	   
        }
-        
        
        	//version control
         System.out.println("Enter the version for hierarchy you prefer");
