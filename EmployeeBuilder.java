@@ -1,7 +1,6 @@
 package p1;
 public class EmployeeBuilder {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	
 	private int projectid;
 
@@ -12,8 +11,6 @@ public class EmployeeBuilder {
 		return this;
 	}
 	
-=======
-=======
 
 	private String name;
 	
@@ -31,7 +28,6 @@ public class EmployeeBuilder {
 		return this;
 	}
 
->>>>>>> c4655c2c094c33910fae2fbbd55af5b56ba5a207
 	private String gender;
 	public EmployeeBuilder setGender(String gender) {
 		this.gender = gender;
@@ -40,9 +36,5 @@ public class EmployeeBuilder {
 	public Employee getEmployee(){	
 		return new Employee(ssoid,name,gender,age,projectid);
 	}
-<<<<<<< HEAD
->>>>>>> 831fc0f1401cf740df1ce5e86050d72d018bcfd7
-=======
 
->>>>>>> c4655c2c094c33910fae2fbbd55af5b56ba5a207
 }
